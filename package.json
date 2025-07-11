@@ -1,0 +1,12 @@
+{
+  "name": "telegram-bot-webhook-vercel",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "node api/bot.js"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}
